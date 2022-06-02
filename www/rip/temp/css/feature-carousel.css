@@ -1,0 +1,74 @@
+/********************
+ * FEATURE CAROUSEL *
+ ********************/
+#carousel-container {
+  position:relative;
+  width:248px;
+}
+#carousel {
+  height:214px;
+  width:248px;
+  background:url(images/graphics/bg_block_nhacso_gioithieu.jpg) left bottom no-repeat;
+  margin-bottom:0.5em;
+  font-size:11px;
+  font-family: Arial;
+}
+#carousel .carousel-feature {
+  position:absolute; 
+  width:248px;
+  cursor:pointer;
+}
+
+#carousel a.carousel-image {
+  display:block;
+  width:220px; 
+  text-align:center;
+}
+
+#carousel .carousel-feature a.carousel-image{
+	float:left;
+	text-decoration:none;
+}
+#carousel .carousel-feature a.carousel-image img{
+	border:2px solid #333; 
+	padding:1px;
+	width:80px;
+}
+#carousel .carousel-feature .carousel-caption {
+  width:248px; 
+  float:left; 
+  left:-13px; 
+  top:-2px; 
+  text-align:center; 
+}
+#carousel .carousel-feature .carousel-caption p {
+  margin:0;
+  padding:5px;
+  font-size:11px;
+  color:white;
+}
+#carousel .carousel-feature .carousel-caption p a{ 
+	color:#333; 
+	font-weight:bold; 
+	width:240px; 
+	padding-bottom:8px; 
+	height:6px; 
+	overflow:hidden; 
+	text-align:center; 
+	text-decoration:none; 
+	float:left;
+}
+#carousel .carousel-feature .carousel-caption p a.ten_casi{ font-weight:normal;}
+#carousel .carousel-feature .carousel-caption p.sub{ height:40px; overflow:hidden; padding-top:20px; float:left;}
+
+#carousel-left {
+  position:absolute;
+  top:50px;
+  cursor:pointer;
+}
+#carousel-right {
+  position:absolute;
+  top:50px;
+  right:0px;
+  cursor:pointer;
+}

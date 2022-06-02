@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!--layout-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="vi-vn" lang="vi-vn" dir="ltr">
+<head> 
+	 
+	 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	 <meta name="description" content="Rip Temp V1.0 NST" /><meta name="keywords" content="Rip Temp V1.0 NST" />
+	 
+	 <title>ripTemp v1.0 | NST</title>
+	 
+	 <link rel="shortcut icon" type="image/x-icon" href="{site.TEMP}/ico.ico" />
+	 
+	 <link href="{site.TEMP}/css/colorbox.css" rel="stylesheet" type="text/css" media="all" />
+	 <link href="{site.TEMP}/css/skin.css" rel="stylesheet" type="text/css" media="all" />
+	 <link href="{site.TEMP}/css/general_v2.5.css" rel="stylesheet" type="text/css" media="all" />
+	 <link href="{site.TEMP}/css/library_v2.5.css" rel="stylesheet" type="text/css" media="all" />
+	 <link href="{site.TEMP}/css/header_footer_ver_2.5.css" rel="stylesheet" type="text/css" media="all" />
+	 <link href="{site.TEMP}/css/ver_2.5.css" rel="stylesheet" type="text/css" media="all" />
+	 <link href="{site.TEMP}/css/library_v2.5_more.css" rel="stylesheet" type="text/css" media="all" />
+	 <link href="{site.TEMP}/css/feature-carousel.css" rel="stylesheet" type="text/css" media="all" />
+	 <link href="{site.TEMP}/css/inbox_mail_inbox.css" media="screen" rel="stylesheet" type="text/css" />
+	 <link href="{site.TEMP}/css/css.css" rel="stylesheet" type="text/css" media="all" />
+	 
+	<script src="{site.TEMP}/js/jquery-1.5.1.min.js"></script>
+	<script type="text/javascript" src="{site.TEMP}/js/jquery.nst.ui.js"></script>
+	<script type="text/javascript" src="{site.TEMP}/js/cufon-yui.js"></script>
+	<script type="text/javascript" src="{site.TEMP}/js/UTM_Neo_Sans_Intel_400.font.js"></script>
+	<script type="text/javascript" src="{site.TEMP}/js/custom.js"></script>
+
+ </head>
+ 
+ 
+ <body>
+ 
+ <div id="wrapper-container">
+ 
+ <div id="bg_header">
+ <div id="container">
+ 
+		<!--Begin Header-->
+		<div id="wrapper-header">
+			 <div id="header">
+			 
+				<div class="logo">
+					 <span class="cufon">ripTemp v1.0</span>
+				 </div>
+				 
+				 <div class="notify_search">
+					 <form id="frmSearch">
+						 <table width="100%" border="0" cellpadding="0" cellspacing="0">
+							 <tr>
+								<td class="search_key">
+									<input type="text" name="key" value=""/>
+								</td>
+								<td>
+									<div class="search_btn"><div>
+								</td>
+							 </tr>
+						 </table>
+					 </form>
+				 </div>
+				<div class="clear"></div>
+			 
+			 </div>
+		 </div>
+		<!--End Header-->
+		
+		
+		<!--Begin Content-->
+		<div id="wrapper-content">
+			<div id="content">
+				<div id="left_col">
+					<div id="right_col_center_qc" style="padding-left: 5px">
+					 
+						
+						<!-- Main Loader -->
+						<div id="ripTemp_load"></div>
+						<!-- end Main Loader -->
+						
+						
+						<!-- Progress Bar -->
+						<div class="progress-bar">
+							<div class="progress progress-blue">
+								<span style="width: 0%;"></span>
+							</div>
+						</div>
+						<!-- end Progress Bar -->
+						
+						
+						<!-- Files Html -->
+						<div id="files_html">
+						
+							<!-- File Stats -->
+							<div name="stats"></div>
+							<!-- end File Stats -->
+							
+							<!-- List File -->
+							<div id="block_nocolor">
+								<div class="block_nocolor_top"></div>
+								<div class="block_nocolor_center">
+								
+									<div class="files">
+										<div name="loading"></div>
+										<div name="result" class="file_list"></div>
+									</div>
+									
+								</div>
+								<div class="block_nocolor_bottom"></div>
+							</div>
+							<!-- end List File -->
+							
+						</div>
+						<!-- end Files Html -->
+						
+						
+						<!-- Temp Html -->
+						<div id="temp_html" style="display:none;">
+						
+							<div name="stats">
+								<div id="block_nocolor">
+									<div class="block_nocolor_top"></div>
+									<div class="block_nocolor_center">
+
+										<table class="file_stats"><tr>
+											<td class="total">
+												<div>Tổng số file: {file.TOTAL}</div>
+												<div>Bị lỗi: {file.ERROR} | Hoàn thành: {file.COMPLETE}</div>
+											</td>
+											<td class="btn">
+												<div name="btn_error"><a href="#reload" class="button_link" onclick="file_reload(); return false;">Tải lại file bị lỗi</a></div>
+												<div><a href="{url.RESULT}" class="button_link" target="_blank">Xem kết quả</a></div>
+											</td>
+										</tr></table>
+										
+									</div>
+									<div class="block_nocolor_bottom"></div>
+								</div>
+							</div>
+							
+							<div name="loading">
+								<div class="file_loading">
+									<div class="icon"></div>
+									<div class="url">
+										<div><a href="{file.URL}" target="_blank">{file.URL}</a></div>
+									</div>
+								</div>
+							</div>
+							
+							<div name="result">
+								<div class="file" file="{file.ID}">
+									<div class="status {file.STATUS}"></div>
+									<div class="url">
+										<div>File: <a href="{file.URL}" target="_blank">{file.URL}</a></div>
+										<div>Local: <a href="{file.FOLDER}/{file.LOCAL}" target="_blank">{file.LOCAL}</a></div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						<!-- end Temp Html -->
+						
+					
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<!--End Content-->
+		
+ </div>
+ </div>
+ 
+ 
+ <!--Begin Footer-->
+ <div id="wrapper-footer">
+	 <div id="footer">
+		 <p>ripTemp v1.0 - NST</p>
+		 <ul>
+			<li>© Copyright 2011 - All rights reserved</li>
+		</ul>
+	 </div>
+ </div>
+ 
+</body></html>

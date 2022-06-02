@@ -1,0 +1,372 @@
+/*Column center------------------------------------------------*/
+#mail_inbox {
+}
+#mail_inbox ul.title {
+	color:#333;
+	font-weight:bold;
+	padding-top:5px;
+	width:508px;
+	float:left;
+	margin-left:-8px;
+}
+#mail_inbox ul.title li {
+	display:inline;
+	float:left;
+	margin-right:-1px;
+	background:url(images/graphics/boder_li.jpg) left no-repeat;
+}
+#mail_inbox ul.title li.noactive{
+	padding:4px 0;	
+}
+#mail_inbox ul.title li a {
+	font-weight:bold;
+	font-size:13px;
+	color:#333;	
+	text-decoration:none;
+	background:url(images/graphics/boder_li.jpg) right no-repeat;
+	padding:4px 10px 4px 10px;
+	float:left;
+}
+#mail_inbox ul.title li a ins{ font-weight:normal; text-decoration:none;}
+
+#mail_inbox ul.title li.active a span{ background:url(images/graphics/bg_title_flash_pl_leftsmall.jpg) left no-repeat; padding:4px; float:left; color:#FFF;}
+#mail_inbox ul.title li.active a span label{ background:url(images/graphics/bg_title_flash_pl.jpg) right no-repeat; padding:4px;}
+
+#mail_inbox ul.title li a.first{ background:url(images/graphics/boder_li_trang.jpg) left no-repeat;}
+#mail_inbox ul.title li a.end{ background:url(images/graphics/boder_li_trang.jpg) right no-repeat;}
+
+/*#mail_inbox ul.title li.active {
+	background:url(images/graphics/bg_title_flash_pl_leftsmall.jpg) left no-repeat;
+	margin:0 10px;
+}
+#mail_inbox ul.title li.active a{ color:#FFF; background:url(images/graphics/bg_title_flash_pl.jpg) right no-repeat; padding:4px 10px 4px 10px;}*/
+
+#mail_inbox p.thietlap {
+	width:85px;
+	float:right;
+	padding-top:16px;
+}
+#mail_inbox p.thietlap a {
+	color:#666;
+	text-decoration:none;
+}
+#mail_inbox p.thietlap a:hover{
+	color:#0088CC;
+}
+#mail_inbox .list_box {
+	width:628px;
+	border-left:1px solid #d6d6d6;
+	border-right:1px solid #d6d6d6;
+	border-bottom:1px solid #d6d6d6;
+	background:url(images/graphics/bg_top_baihat.gif) left top repeat-x;
+	padding:20px 0;
+	margin-top:4px;
+	float:left;
+}
+#mail_inbox .list_box p.showtin{ color:#999; font-size:11px; padding:10px 0 10px 10px; float:left;}
+#mail_inbox .list_box .action_link {
+	width:623px;
+	float:left;
+}
+#mail_inbox .list_box .action_link ul {
+	float:left;
+	width:513px;
+	padding-left:5px;
+}
+#mail_inbox .list_box .action_link ul li {
+	display:block;
+	background:url(images/buttons/bg_action_right.jpg) right no-repeat;
+	height:26px;
+	float:left;
+	margin-right:5px;
+}
+#mail_inbox .list_box .action_link ul li a {
+	color:#666;
+	background:url(images/buttons/bg_action_left.jpg) left no-repeat;
+	height:16px;
+	display:block;
+	float:left;
+	padding:6px 5px 4px 5px;
+	text-decoration:none;
+	font-size:11px;
+}
+#mail_inbox .list_box .action_link p.but {
+	width:100px;
+	height:21px;
+	background:url(images/buttons/but_send_mess.jpg) left no-repeat;
+	text-align:center;
+	padding-top:6px;
+	float:left;
+	margin-right:5px;
+}
+#mail_inbox .list_box .action_link p a {
+	color:#FFF;
+	font-weight:bold;
+	text-decoration:none;
+}
+#mail_inbox .list_box .function {
+	clear:both;
+	float:left;
+	width:608px;
+	padding:10px;
+}
+#mail_inbox .list_box .function p {
+	font-size:11px;
+	color:#666;
+	width:250px;
+	float:left;
+}
+#mail_inbox .list_box .function ul {
+	color:#666;
+	width:358px;
+	float:right;
+	text-align:right;
+}
+#mail_inbox .list_box .function ul li {
+	display:inline;
+}
+#mail_inbox .list_box .function ul li a {
+	font-size:11px;
+	color:#666;
+}
+#mail_inbox .list_box .function ul li a.active {
+	color:#0088CC;
+}
+#mail_inbox .list_box .inbox {
+	float:left;
+	width:628px;
+	margin-bottom:20px;
+}
+#mail_inbox .list_box .inbox table {
+	float:left;
+	width:628px;
+}
+#mail_inbox .list_box .inbox table tr td {
+	padding:15px 0;
+	border-top:1px solid #eaeaea;
+}
+
+#mail_inbox .list_box .inbox table tr.bg_color {
+	background:#fbfbfb;
+}
+#mail_inbox .list_box .inbox table tr td.end{
+	border-bottom:none;
+}
+#mail_inbox .list_box .inbox table tr td.check_del {
+	width:50px;
+}
+#mail_inbox .list_box .inbox table tr td.check_del .readmail {
+	background:url(images/icons/icon_share.gif) 22px -96px no-repeat;
+	.background:url(images/icons/icon_share.gif) 25px -92px no-repeat;
+	_background:url(images/icons/icon_share.gif) 25px -92px no-repeat;
+}
+#mail_inbox .list_box .inbox table tr td.check_del .readmail input {
+	margin-left:5px;
+}
+#mail_inbox .list_box .inbox table tr td.check_del .foward {
+	background:url(images/icons/icon_share.gif) 22px -120px no-repeat;
+	.background:url(images/icons/icon_share.gif) 25px -118px no-repeat;
+	_background:url(images/icons/icon_share.gif) 25px -118px no-repeat;
+}
+#mail_inbox .list_box .inbox table tr td.check_del .foward input {
+	margin-left:5px;
+}
+#mail_inbox .list_box .inbox table tr td.check_del .unread {
+	background:url(images/icons/icon_share.gif) 22px -52px no-repeat;
+	.background:url(images/icons/icon_share.gif) 25px -48px no-repeat;
+	_background:url(images/icons/icon_share.gif) 25px -48px no-repeat;
+}
+#mail_inbox .list_box .inbox table tr td.check_del .unread input {
+	margin-left:5px;
+}
+#mail_inbox .list_box .inbox table tr td.sender {
+	width:230px;
+	/*float:left;*/
+}
+
+#mail_inbox .list_box .inbox table tr td a.avatar {
+	float:left;
+	margin-right:12px;
+	color:#0088CC;
+}
+#mail_inbox .list_box .inbox table tr td p.date {
+	color:#999;
+}
+#mail_inbox .list_box .inbox table tr td.nd {
+	width:328px;
+	padding:0 10px 0 10px;
+	line-height:1.6;
+	position:relative;
+}
+#mail_inbox .list_box .inbox table tr td.nd p{}
+#mail_inbox .list_box .inbox table tr td.nd p a{  color:#0088CC;}
+#mail_inbox .list_box .inbox table tr td.nd p.title{ font-weight:bold; color:#333; padding-top:5px; width:310px; overflow:hidden; margin-right:20px;}
+#mail_inbox .list_box .inbox table tr td.nd p.info{ padding-bottom:4px; width:330px; overflow:hidden; height:34px;}
+#mail_inbox .list_box .inbox table tr td.nd p.dadoc{ color:#999;}
+#mail_inbox .list_box .inbox table tr td.nd p.dadoc a{ font-weight:normal;}
+
+#mail_inbox .list_box p.show_info {
+	float:left;
+}
+#show_xemthem {
+	width:628px;
+	float:left;
+}
+#show_xemthem p.show_info {
+	padding:20px 0 20px 20px;
+	width:588px;
+	color:#666;
+}
+#show_xemthem p.xemthem {
+	float:left;
+	width:618px;
+	text-align:center;
+	background:#f0f0f0;
+	padding:5px;
+}
+#show_xemthem p.xemthem a {
+	color:#666;
+	font-size:10px;
+}
+
+/*Thu moi ket ban------------------------------------------------*/
+#mail_inbox .list_box .thumoi_ketban {
+	float:left;
+	width:608px;
+	padding:0 10px;
+}
+#mail_inbox .list_box .thumoi_ketban h2 {
+	font-size:11px;
+	margin-bottom:10px;
+}
+#mail_inbox .list_box .thumoi_ketban ul {
+	width:608px;
+	float:left;
+}
+#mail_inbox .list_box .thumoi_ketban ul li {
+	padding-bottom:20px;
+	width:608px;
+	float:left;
+}
+#mail_inbox .list_box .thumoi_ketban ul li .info {
+	float:left;
+	width:470px;
+}
+#mail_inbox .list_box .thumoi_ketban ul li .info a img {
+	float:left;
+	margin-right:10px;
+	border:1px solid #dfdfdf;
+}
+#mail_inbox .list_box .thumoi_ketban ul li .info p {
+	color:#999;
+	padding-bottom:8px;
+}
+#mail_inbox .list_box .thumoi_ketban ul li .info p a {
+	font-weight:bold;
+	color:#0088CC;
+	padding-bottom:10px;
+}
+#mail_inbox .list_box .thumoi_ketban ul li .link_ketban {
+	float:right;
+	width:138px;
+	height:50px;
+}
+#mail_inbox .list_box .thumoi_ketban ul li .link_ketban a {
+	width:58px;
+	height:18px;
+	background:url(images/buttons/but_huybo.jpg) left top no-repeat;
+	text-align:center;
+	color:#666;
+	display:block;
+	float:left;
+	margin-right:8px;
+	padding-top:8px;
+	text-decoration:none;
+	font-size:10px;
+}
+#mail_inbox .list_box .thumoi_ketban ul li .link_ketban a.dongy{
+	width:63px;
+	height:19px;
+	background:url(images/buttons/but_luulai.jpg) left top no-repeat;
+	text-align:center;
+	color:#FFF;
+	font-weight:bold;
+	display:block;
+	float:left;
+	margin-right:8px;
+	padding-top:8px;
+	text-decoration:none;
+}
+#paging_1 {
+	width:608px;
+	float:left;
+	padding:10px 0;
+}
+#paging_1 ul.page {
+	text-align:right;
+}
+#paging_1 ul.page li {
+	color:#666;
+	width:auto;
+	border-bottom:none;
+	display:inline;
+}
+#paging_1 ul.page li a {
+	color:#666;
+	padding:6px;
+}
+#paging_1 ul.page li.active{
+	background:url(images/icons/page_active.gif) left no-repeat;
+	padding:6px 6px 6px 2px;
+}
+#paging_1 ul.page li.active a {
+	background:url(images/icons/page_active_right.gif) right no-repeat;
+	font-weight:bold;
+	color:#FFF; padding-left:2px;
+}
+
+/*Inbox View message------------------------------------------------*/
+#mail_inbox .list_box .message_of p{
+	font-size:11px;
+	color:#666;
+	width:608px;
+	padding:10px;
+	_padding:10px;
+	.padding:5px;
+	float:left;
+	border-bottom:1px solid #eaeaea;
+}
+#mail_inbox .list_box .message_of p span.tieude{ font-weight:bold; font-size:12px; color:#333; margin-top:10px; display:block;}
+#mail_inbox .list_box .message_of p span{  margin-top:10px; font-size:11px;}
+
+#mail_inbox .list_box .view_message{
+	float:left;
+	width:608px;
+	padding:10px;
+}
+#mail_inbox .list_box .view_message ul{}
+#mail_inbox .list_box .view_message ul li{ border-bottom:1px solid #eaeaea; margin-bottom:15px; padding-bottom:15px; float:left; width:608px; overflow:hidden;}
+#mail_inbox .list_box .view_message ul li a img{ float:left; border:1px solid #dfdfdf; margin-right:10px;}
+#mail_inbox .list_box .view_message ul li p.nick_time{ font-size:11px; margin-bottom:10px;}
+#mail_inbox .list_box .view_message ul li p.nick_time a{ color:#0088CC;}
+#mail_inbox .list_box .view_message ul li p.nick_time ins{ color:#999; text-decoration:none;}
+#mail_inbox .list_box .view_message ul li p{ color:#333; margin-bottom:6px; float:right; width:545px; text-align:left;}
+
+#mail_inbox .list_box .view_message table{
+	float:left;
+	width:608px;
+	clear:both; font-weight:bold; color:#333;
+}
+#mail_inbox .list_box .view_message table textarea.txt{ width:470px; height:100px; border:1px solid #d3d3d3; padding:10px; font-weight:normal; overflow-y:auto; overflow-x:hidden;}
+#mail_inbox .list_box .view_message table tr td label.txt-label{ font-weight:normal; color:#999; margin-top:10px; margin-left:75px;}
+#mail_inbox .list_box .view_message table tr td input{ font-weight:bold; color:#666; background:url(images/buttons/but_ketban.jpg) left no-repeat; width:65px; height:26px; border:none; margin-top:5px; cursor:pointer;}
+#mail_inbox .list_box .view_message table tr td p{ font-weight:normal; color:#ff0000; margin-top:10px;}
+
+
+#quaylai{ float:left; width:628px; border-top:1px solid #CCC; padding-top:10px;}
+#quaylai p{ background:url(images/buttons/bg_action_left.jpg) left no-repeat; padding:10px 0 10px 6px; margin-left:10px;}
+#quaylai p a{ background:url(images/buttons/bg_action_right.jpg) right no-repeat; padding:10px; color:#666; font-weight:bold; text-decoration:none;}
+
+
+
+

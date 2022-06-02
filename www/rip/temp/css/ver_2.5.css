@@ -1,0 +1,193 @@
+/* Chuan chung -------------------------------*/
+
+/*Block Left 310px -------------------------------*/
+.v25_content_frame_left_padding{ width:288px; border-left:1px solid #CCC; border-right:1px solid #CCC; padding:20px 10px 4px 10px; background:url(images/graphics/bg_top_baihat.gif) repeat-x left top; float:left; margin-top:4px;}
+.v25_content_frame_left{ width:308px; border-left:1px solid #CCC; border-right:1px solid #CCC; padding:20px 0 4px 0; background:url(images/graphics/bg_top_baihat.gif) repeat-x left top; float:left; margin-top:4px;}
+.v25_footer_block_left{ font-size:1px; background:url(images/graphics/bg_bottom_block_left.jpg) left bottom no-repeat; height:6px; float:left; width:310px; margin-bottom:10px;}
+
+/*Block Left 630px -------------------------------*/
+.v25_content_frame_left_630_padding{ width:608px; border-left:1px solid #CCC; border-right:1px solid #CCC; padding:20px 10px 4px 10px; background:url(images/graphics/bg_top_baihat.gif) repeat-x left top; float:left; margin-top:4px;}
+.v25_content_frame_left_630{ width:628px; border-left:1px solid #CCC; border-right:1px solid #CCC; padding:10px 0 4px 0; background:url(images/graphics/bg_top_baihat.gif) repeat-x left top; float:left; margin-top:4px;}
+.v25_footer_block_left_630{ font-size:1px; background:url(images/graphics/bg_bottom_block_630.jpg) left bottom no-repeat; height:6px; float:left; width:630px; margin-bottom:10px;}
+
+
+/*Block Right 320px -------------------------------*/
+.v25_content_frame_right_padding{ width:298px; border-left:1px solid #CCC; border-right:1px solid #CCC; padding:20px 10px 4px 10px; background:url(images/graphics/bg_top_baihat.gif) repeat-x left top; float:left; margin-top:-3px;}
+.v25_content_frame_right{ width:318px; border-left:1px solid #CCC; border-right:1px solid #CCC; padding:20px 0 4px 0; background:url(images/graphics/bg_top_baihat.gif) repeat-x left top; float:left; margin-top:4px;}
+.v25_footer_block_right{ font-size:1px; background:url(images/graphics/bg_bottom_block_right.jpg) left bottom no-repeat; height:6px; float:left; width:320px; margin-bottom:10px;}
+
+/*Block Right 240px -------------------------------*/
+.v25_content_frame_right_240_padding{ width:218px; border-left:1px solid #CCC; border-right:1px solid #CCC; padding:20px 10px 4px 10px; background:url(images/graphics/bg_top_baihat.gif) repeat-x left top; float:left; margin-top:4px;}
+.v25_content_frame_right_240{ width:238px; border-left:1px solid #CCC; border-right:1px solid #CCC; padding:10px 0 4px 0; background:url(images/graphics/bg_top_baihat.gif) repeat-x left top; float:left; margin-top:4px;}
+.v25_footer_block_right_240{ font-size:1px; background:url(images/graphics/bg_bottom_block_240.jpg) left bottom no-repeat; height:6px; float:left; width:240px; margin-bottom:10px;}
+
+/*Block Right 250px -------------------------------*/
+.v25_content_frame_right_250_padding{ width:228px; border-left:1px solid #CCC; border-right:1px solid #CCC; padding:20px 10px 4px 10px; background:url(images/graphics/bg_top_baihat.gif) repeat-x left top; float:left; margin-top:4px;}
+.v25_content_frame_right_250{ width:248px; border-left:1px solid #CCC; border-right:1px solid #CCC; padding:10px 0 4px 0; background:url(images/graphics/bg_top_baihat.gif) repeat-x left top; float:left; margin-top:4px;}
+.v25_footer_block_right_250{ font-size:1px; background:url(images/graphics/bg_bottom_block_250.jpg) left bottom no-repeat; height:6px; float:left; width:250px; margin-bottom:10px;}
+
+/*Block Carousel 250px -------------------------------*/
+.v25_content_frame_right_carousel{ width:248px; border-left:1px solid #CCC; border-right:1px solid #CCC; padding:10px 0 0 0; background:url(images/graphics/bg_top_baihat.gif) repeat-x left top; float:left; margin-top:4px;}
+.v25_footer_block_right_carousel{ font-size:1px; background:url(images/graphics/bg_block_bottom_nhacso_gioithieu.jpg) center bottom no-repeat; height:6px; float:left; width:250px; margin-bottom:10px;}
+
+
+/* Trang chu - cot trai-------------------------------*/
+#left_col_1{ margin-top:20px;/* _margin-left:4px;*/}
+
+#left_col_left {
+	width:310px;
+}
+
+/* Trang chu - cot trai - Flash playlist -------------------------------*/
+#flash_pl{ width:630px; float:left; overflow:hidden; margin-bottom:15px;}
+#flash_pl .flash_pl_top{ background:url(images/graphics/playlist_cothenghe_top.jpg) left top no-repeat; font-size:1px; height:6px;}
+#flash_pl .flash_pl_bottom{ background:url(images/graphics/playlist_cothenghe_bottom.jpg) left bottom no-repeat; font-size:1px; height:6px; float:left; width:630px;}
+#flash_pl .flash_pl_center{ border-left:1px solid #CCC; background:#f0f0f0; border-right:1px solid #CCC; float:left; width:628px;}
+#flash_pl .flash_pl_center h2{ width:450px; float:left;}
+#flash_pl .flash_pl_center h2 span{ background:url(images/graphics/bg_title_flash_pl.jpg) right no-repeat #333; padding:3px 10px; color:#FFF; font-size:13px; font-weight:bold; float:left;}
+#flash_pl .flash_pl_center h2 span ins{ font-weight:normal; text-decoration:none;}
+#flash_pl .flash_pl_center .link_func{ width:168px; float:right; text-align:right; padding-right:10px; padding-top:6px; color:#333;}
+#flash_pl .flash_pl_center .link_func a{ font-size:11px;}
+#flash_pl .flash_pl_center .link_func a.more{ background:url(images/icons/icon_xemthem_xam.jpg) right 4px no-repeat; padding-right:10px;}
+#flash_pl .flash_pl_center .content{ width:628px; float:left; margin-top:10px;}
+
+
+/* Trang library -------------------------------*/
+
+/* Trang library - cot giua - Block chung co mau xam -------------------------------*/
+#library_block{ width:530px; float:left; overflow:hidden; margin-bottom:15px;}
+#library_block .library_block_top{ background:url(images/graphics/bg_top_hot_album.jpg) left top no-repeat; font-size:1px; height:6px;}
+#library_block .library_block_bottom{ background:url(images/graphics/bg_bottom_hot_album.jpg) left bottom no-repeat; font-size:1px; height:6px; float:left; width:530px;}
+#library_block .library_block_center{ border-left:1px solid #CCC; background:#f0f0f0; border-right:1px solid #CCC; float:left; width:528px;}
+#library_block .library_block_center h2{ width:400px; float:left;}
+#library_block .library_block_center h2 span{ background:url(images/graphics/bg_title_flash_pl.jpg) right no-repeat #333; padding:3px 10px; color:#FFF; font-size:13px; font-weight:bold; float:left;}
+#library_block .library_block_center a.link_more{ width:108px; float:right; text-align:right; padding-right:10px; padding-top:6px; font-size:11px; background:url(images/icons/icon_xemthem_xam.jpg) right 10px no-repeat; padding-right:10px; margin-right:10px;}
+#library_block .library_block_center .content{ width:528px; float:left; /*margin-top:10px;*/}
+
+/* Trang library - cot giua - Block chung - khong mau -------------------------------*/
+
+#library_block_nocolor{ width:950px; float:left; overflow:hidden; margin-bottom:15px;}
+#library_block_nocolor .library_block_nocolor_top{ background:url(images/graphics/nocolor_bg_top.jpg) left top no-repeat; font-size:1px; height:6px;}
+#library_block_nocolor .library_block_nocolor_bottom{ background:url(images/graphics/nocolor_bg_bottom.jpg) left bottom no-repeat; font-size:1px; height:6px; float:left; width:950px;}
+#library_block_nocolor .library_block_nocolor_center{ border-left:1px solid #CCC; border-right:1px solid #CCC; float:left; width:948px;}
+#library_block_nocolor .library_block_nocolor_center h2{ width:400px; float:left; margin-top:6px;}
+#library_block_nocolor .library_block_nocolor_center h2 span{ background:url(images/graphics/bg_title_flash_pl.jpg) right no-repeat #333; padding:3px 10px; color:#FFF; font-size:13px; font-weight:bold; float:left;}
+#library_block_nocolor .library_block_nocolor_center a.link_more{ width:118px; float:right; text-align:right; padding-right:10px; padding-top:6px;}
+#library_block_nocolor .library_block_nocolor_center .content{ width:528px; float:left; margin-top:10px;}
+
+/*Playlist noi bat --------------------------------------------------*/
+#pl_noibat{ width:528px; float:left;}
+#pl_noibat ul{ margin-left:1px;}
+#pl_noibat ul li{ display:inline; float:left; width:124px; text-align:left; margin-left:6px; margin-bottom:16px;}
+#pl_noibat ul li a.frame{  background:url(images/graphics/bg_img_pl_noibat.jpg) right bottom no-repeat; padding:0 4px 4px 0; float:left;}
+#pl_noibat ul li p{ width:120px; font-size:11px; margin-top:4px;}
+#pl_noibat ul li p ins{ text-decoration:none;}
+#pl_noibat ul li p a{ color:#333; font-size:11px; font-weight:bold; background:none;}
+#pl_noibat ul li p a:hover{ color:#0088CC}
+#pl_noibat ul li p.name{ height:28px; overflow:hidden; float:left; width:120px;}
+#pl_noibat ul li p.tg{ height:14px; overflow:hidden; float:left; width:120px;}
+#pl_noibat ul li p.tg a{ font-weight:normal;} 
+#pl_noibat ul li p.tg a:hover{ color:#0088CC;}
+
+/*Nghe si tuan --------------------------------------------------*/
+#nghesi_tuan{}
+#nghesi_tuan .tintuc{ margin-bottom:25px; float:left; width:528px; position:relative; background:url(images/graphics/bg_nghesituan.gif) bottom repeat-x;}
+#nghesi_tuan .tintuc img.pic_intro{ float:left; margin-left:10px; border:1px solid #CCC; padding:2px;}
+#nghesi_tuan .tintuc p.level{ position:absolute; background:url(images/graphics/bg_ngoisao_31.png) left no-repeat; color:#000; font-weight:bold; padding:12px; top:140px; left:112px; font-size:14px}
+
+#nghesi_tuan .tintuc .info_casi{ float:left; width:392px;/* background:url(images/graphics/bg_info_casi.jpg) left top repeat-x; padding-bottom: 16px;*/}
+
+#nghesi_tuan .tintuc .info_casi .info{ float:left; width:186px; /*background:url(images/graphics/bg_goctrai_casi.jpg) left top no-repeat;*/ padding-left:10px; padding-top:8px; font-size:11px; padding-bottom:10px;}
+#nghesi_tuan .tintuc .info_casi .info h3{ font-size:12px; /*background:url(images/graphics/bg_h3.jpg) left bottom repeat-x; padding-bottom:8px;*/ margin-bottom:5px; height:14px;}
+#nghesi_tuan .tintuc .info_casi .info h3 a{ font-size:12px; color:#000; height:14px; overflow:hidden; float:left;}
+#nghesi_tuan .tintuc .info_casi .info h3 a:hover{ color:#0088CC;}
+#nghesi_tuan .tintuc .info_casi .info p{ padding-top:4px; height:14px; overflow:hidden; padding-right:10px;}
+#nghesi_tuan .tintuc .info_casi .info p.desc{ height:51px; overflow:hidden; line-height:1.5; margin-top:8px;}
+
+#nghesi_tuan .tintuc .info_casi .info p.xemchitiet{ text-align:right; padding-right:14px;}
+#nghesi_tuan .tintuc .info_casi .info p.xemchitiet a.chitiet{ background:url(images/icons/icon_xemthem_xam.jpg) right no-repeat; padding-right:10px;}
+
+
+#nghesi_tuan .tintuc .info_casi .baihat{ float:right; width:175px; padding-left:20px; padding-top:8px; border-left:1px solid #eaeaea; padding-bottom:20px;}
+#nghesi_tuan .tintuc .info_casi .baihat h3{ font-size:12px; /*background:url(images/graphics/bg_h3.jpg) left bottom repeat-x; padding-bottom:8px;*/ margin-bottom:5px;}
+#nghesi_tuan .tintuc .info_casi .baihat ul{ /*padding-bottom:18px;*/}
+#nghesi_tuan .tintuc .info_casi .baihat ul li{ padding-top:4px; height:15px; overflow:hidden; display:block;}
+#nghesi_tuan .tintuc .info_casi .baihat ul li a{ background:url(images/icons/icon_tron.jpg) left no-repeat; padding-left:12px; color:#333; font-size:11px;} 
+#nghesi_tuan .tintuc .info_casi .baihat ul li a:hover{ color:#0088CC;}
+
+#nghesi_tuan .cd{ width:528px; float:left; margin-bottom:8px;}
+#nghesi_tuan .cd ul{}
+#nghesi_tuan .cd ul li{ text-align:center; width:100px; float:left; position:relative; padding-left:24px; margin-bottom:4px;}
+#nghesi_tuan .cd ul li a.pic{}
+#nghesi_tuan .cd ul li a.pic img{ border:1px solid #CCC; padding:2px; margin-bottom:10px;} 
+#nghesi_tuan .cd ul li a.pic p.level{ position:absolute; right:6px; bottom:30px; background:url(images/graphics/bg_ngoisao.png) left top no-repeat; padding:6px 11px 14px 11px; color:#FFF; font-weight:bold;}
+#nghesi_tuan .cd ul li p a{ font-size:11px; color:#333; font-weight:bold;}
+#nghesi_tuan .cd ul li p a:hover{ color:#0088CC;}
+#nghesi_tuan .cd ul li p.ln{ background:url(images/icons/icon_headphone.gif) left bottom no-repeat; padding:4px 0 4px 10px; font-size:11px;}
+#nghesi_tuan .cd ul li p.cs{ height:14px; overflow:hidden; float:left; width:100px; margin-bottom:4px;}
+
+/*Hot album --------------------------------------------------*/
+#hot_album{ width:528px; float:left;}
+#hot_album .content{ padding:10px; margin-top:0;}
+#hot_album ul{ background:#dcdada; padding:4px 0; float:left; width:508px;}
+#hot_album ul li{ position:relative; float:left; margin-left:4px;}
+#hot_album ul li a img{ border:1px solid #FFF;}
+#hot_album ul li .desc{ position:absolute; left:0; bottom:0; width:120px; background:url(images/graphics/bg_del.png) left repeat; text-align:center; overflow:hidden;}
+#hot_album ul li .desc p{ height:8px; overflow:hidden; padding:7px 0;}
+#hot_album ul li .desc p a{ font-weight:bold; color:#FFF; font-size:11px;}
+#hot_album ul li .desc .three_link{}
+#hot_album ul li .desc .three_link p{ color:#FFF; text-align:center; padding:3px 0; height:12px; overflow:hidden; font-size:11px;}
+#hot_album ul li .desc .three_link ul.link_func{ float:left; background:#000; text-align:center; padding-left:14px;}
+#hot_album ul li .desc .three_link ul.link_func li{ border-right:1px solid #333; margin:4px;}
+#hot_album ul li .desc .three_link ul.link_func li.end{ border:none;}
+#hot_album ul li .desc .three_link ul.link_func li a{ cursor:pointer; padding-right:6px;}
+#hot_album ul li .desc .three_link ul.link_func li a.link1{ width:17px; height:17px; background:url(images/icons/icon_link1.jpg) left no-repeat; float:left; font-size:1px;}
+#hot_album ul li .desc .three_link ul.link_func li a.link2{ width:17px; height:17px; background:url(images/icons/icon_link2.jpg) left no-repeat; float:left; font-size:1px;}
+#hot_album ul li .desc .three_link ul.link_func li a.link3{ width:17px; height:17px; background:url(images/icons/icon_link3.jpg) left no-repeat; float:left; font-size:1px;}
+#hot_album ul li .desc .three_link ul.link_func li a.link1_active{ width:17px; height:17px; background:url(images/icons/icon_link1_active.jpg) left no-repeat; float:left; font-size:1px;}
+#hot_album ul li .desc .three_link ul.link_func li a.link2_active{ width:17px; height:17px; background:url(images/icons/icon_link2_active.jpg) left no-repeat; float:left; font-size:1px;}
+#hot_album ul li .desc .three_link ul.link_func li a.link3_active{ width:17px; height:17px; background:url(images/icons/icon_link3_active.jpg) left no-repeat; float:left; font-size:1px;}
+
+
+/* Trang library - cot giua - Block chung co mau xam -------------------------------*/
+#block_540{ width:540px; float:left; overflow:hidden; margin-bottom:10px;}
+#block_540 .block_540_top{ background:url(images/graphics/bg_top_tags_540.jpg) left top no-repeat; font-size:1px; height:6px;}
+#block_540 .block_540_bottom{ background:url(images/graphics/bg_bottom_tags_540.jpg) left bottom no-repeat; font-size:1px; height:3px; float:left; width:540px;}
+#block_540 .block_540_center{ border-left:1px solid #CCC; background:#f0f0f0; border-right:1px solid #CCC; float:left; width:538px;}
+#block_540 .block_540_center h2{ width:410px; float:left;}
+#block_540 .block_540_center h2 span{ background:url(images/graphics/bg_title_flash_pl.jpg) right no-repeat #333; padding:4px 10px; color:#FFF; font-size:11px; font-weight:bold; float:left;}
+#block_540 .block_540_center a.link_more{ width:108px; float:right; text-align:right; padding-right:10px; padding-top:6px; font-size:11px; background:url(images/icons/icon_xemthem_xam.jpg) right bottom no-repeat; padding-right:10px; margin-right:10px;}
+#block_540 .block_540_center .content{ width:538px; float:left;}
+
+/*Hot album --------------------------------------------------*/
+#tags_album{ width:528px; float:left;}
+#tags_album .content{ padding:11px 10px 10px 70px; margin-top:0; margin-top:-29px;}
+#tags_album .content ul{ width:460px;}
+#tags_album .content ul li{ display:inline;}
+#tags_album .content ul li a{ color:#333;}
+#tags_album .content ul li.active a{ font-size:16px; font-weight:bold;} 
+#tags_album .content ul li a:hover{ color:#0088CC;}
+
+#tags_album .content .all_tags{ width:460px; line-height: 1.6;}
+#tags_album .content .all_tags a{ color:#333;} 
+#tags_album .content .all_tags a.active{ font-size:16px; font-weight:bold;} 
+
+/*Title center --------------------------------------------------*/
+.title_tags{ width:540px; float:left; margin-bottom:8px;}
+.title_tags h2{ font-size:13px; margin:0 0 4px 0; padding:0; float:left; width:340px;}
+#bdyn_list_album_of_category .title_tags, #bdyn_list_song_of_category .title_tags{ margin-bottom:0;}
+
+.title_tags ul{ float:right; width:200px; text-align:right;}
+.title_tags ul li{ display:inline;}
+.title_tags ul li a{ font-size:11px; color:#0088CC;}
+.title_tags ul li.active{ color:#333; font-weight:bold;}
+
+.title_tags ul.func{ float:right; width:200px; text-align:right;}
+.title_tags ul.func li{ display:inline;}
+.title_tags ul.func li.active{ font-weight:bold;}
+.title_tags ul.func li a{ font-size:11px; color:#0088CC; font-weight:normal;}
+.title_tags ul.func li.active{ color:#333;}
+
+
+/*Edit by Quang DEV --------------------------------------------------*/
+#flash_pl .flash_pl_center .content{ width:628px; height: 250px; float:left; margin-top:10px;}

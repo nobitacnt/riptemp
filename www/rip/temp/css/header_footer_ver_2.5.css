@@ -1,0 +1,108 @@
+/*Bg body-------------------------------*/
+body {
+	background:#e8e8e8;
+}
+
+#wrapper-container{ 
+	background:url(images/graphics/bg_body_v2.5.jpg) center top repeat-y #e8e8e8;
+    _overflow-y:hidden;
+    _padding-bottom: 100px;
+}
+
+#bg_header{ 
+	background:url(images/graphics/bg_head_brand.jpg) center top no-repeat;
+}
+
+#wrapper-content{ padding-bottom:0px;}
+
+#container{ position:relative;}
+
+/*Footer-------------------------------*/
+#wrapper-footer{ 
+	width:988px;
+	.width:987px;
+	_width:989px;
+	margin:0 auto;
+
+}
+/*For Chrome ------------------------------------------ */
+@media screen and (-webkit-min-device-pixel-ratio: 0) { 
+	#wrapper-footer{ 
+		width:986px;
+	}
+}
+
+#footer {
+	width:988px;
+	_width:989px;
+	float:left;
+	border-top:none;
+	padding:20px 0 70px 0;
+	background:url(images/graphics/bg_footer.jpg) center top no-repeat #e8e8e8; 
+}
+#footer p{ color:#333;}
+#footer ul li.end a{ border-right:none;}
+
+/* Header-------------------------------*/
+#header .logo {
+	margin-left:10px;
+}
+#header .menu {
+}
+#header .notify_search table {
+	margin-top:10px;
+}
+.label_search{ font-size:11px; margin-top:9px; left:142px; _width:148px;}
+#header .notify_search ul.notify li a.nickname {
+	font-size:11px;
+}
+#header .notify_search ul.notify li p.firstname{ float:left; text-align:right; width:275px; _width:255px; overflow:hidden; height:20px; margin-top:-2px; .margin-top:-3px; _margin-top:-4px;}
+#header .notify_search ul.notify li p.firstname span{ margin-left:4px;}
+
+#header .notify_search ul.notify li p.firstname a.nickname{ background:#9C0;}
+#header .notify_search table tr td a.link_upload { 
+	width:64px;
+	height:22px;
+	padding-top:8px;
+	padding-left:13px;
+	background:url(images/buttons/but_upload_2.5.jpg) repeat-x;
+	margin:0 15px 0 0px;
+	.margin:0 15px 0 0px;
+	_margin:0 8px 0 0px;
+}
+
+#header .notify_search table tr td input.txt_search { 
+	background:url(images/graphics/bg_txt_timkiemnhac_v2.5.jpg) left no-repeat;
+	.background:url(images/graphics/bg_txt_timkiemnhac_v2.5.jpg) top left no-repeat;
+	_background:url(images/graphics/bg_txt_timkiemnhac_v2.5.jpg) top left no-repeat;
+	height:auto;
+	height:21px\9;
+	padding:8px; /* standard */ 
+	padding:8px 8px 0 8px\9;  /* IE8 and below */
+	*padding:8px 8px 0px 8px; /* IE7 and below */
+	_padding:8px 8px 0px 8px; /* IE6 */
+	font-size:11px;
+	/*FF bo height, chinh padding: 5px 8px 5px 3px;*/
+	color:#777777;
+	cursor:text;
+}
+
+#header .notify_search table tr td .combobox {
+	background:url(images/graphics/bg_txt_timkiemnhac_v2.5.jpg) right no-repeat;
+	width:80px;
+	height:24px;
+	padding-top:4px;
+	border-left:1px solid #e5e5e5;
+}
+
+#header .notify_search table tr td input.but_search {
+	width:36px; 
+	height:28px; 
+	background:url(images/buttons/but_search_v2.5.jpg) right top no-repeat;
+	color:#FFF;
+	border:none;
+	margin-left:0px;
+	cursor:pointer;
+	font-weight:bold;
+	color:#333;
+}
