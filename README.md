@@ -1,0 +1,2 @@
+# riptemp
+Rip template
